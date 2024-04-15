@@ -1,0 +1,39 @@
+body{
+    background-color: #114232;
+    padding:40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.3rem;
+}
+#Faq-heading{
+    color: #F7F6BB;
+    font-size: 2rem;
+}
+.accordian{
+    background-color: #87A922;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 1px 1px 5px #F7F6BB;
+    cursor: pointer;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    margin-right: 26px;
+    transition: transform 0.2s;
+}
+.icon.active{
+    transform:rotate(-180deg);
+}
+.answer{
+    color:#114232;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
